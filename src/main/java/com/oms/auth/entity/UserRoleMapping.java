@@ -6,8 +6,6 @@ import lombok.*;
 @Entity
 @Table(name = "user_role_mapping")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 @IdClass(UserRoleMappingId.class)
 public class UserRoleMapping {

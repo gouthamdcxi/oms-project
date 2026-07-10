@@ -7,8 +7,6 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "user_credentials")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 public class UserCredentials {
 

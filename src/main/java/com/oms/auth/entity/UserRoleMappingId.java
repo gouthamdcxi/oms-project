@@ -6,8 +6,7 @@ import java.util.Objects;
 import lombok.*;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
+@Builder
 public class UserRoleMappingId implements Serializable {
 
     private Long userId;
@@ -26,6 +25,14 @@ public class UserRoleMappingId implements Serializable {
     public UserRoleMappingId() {
 
 		// TODO Auto-generated constructor stub
+	}
+
+    
+
+	public UserRoleMappingId(Long userId, Long roleId) {
+		super();
+		this.userId = userId;
+		this.roleId = roleId;
 	}
 
 

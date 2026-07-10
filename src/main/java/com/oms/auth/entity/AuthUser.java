@@ -7,8 +7,6 @@ import java.util.Date;
 @Entity
 @Table(name = "auth_user")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
 public class AuthUser {
 
